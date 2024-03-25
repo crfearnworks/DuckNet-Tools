@@ -1,6 +1,6 @@
 <footer class="footer">
   <div class = "container">
-    <p>© 2024 Ducknet</p>
+    <p>© 2024 by crfearnworks <a href="https://github.com/crfearnworks"><i class="fa-brands fa-github"></i></a></p>
     </div>
 </footer>
 

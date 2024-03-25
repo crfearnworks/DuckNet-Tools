@@ -10,7 +10,7 @@
 
 <style>
     .navbar {
-        background-color: #1026e9;
+        background-color: #333;
         color: white;
         padding: 1em;
     }
