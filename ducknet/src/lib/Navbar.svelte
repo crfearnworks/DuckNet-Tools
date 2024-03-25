@@ -3,26 +3,28 @@
 </script>
 
 <nav class="navbar">
-    <div class="container">
-        <a href="/" class="navbar-brand">Ducknet</a>
-    </div>
+    <a href="/" class="navbar-brand">Ducknet</a>
+        <div class="navbar-links">
+            <a href="/about" class="navbar-link">About</a>
+            <a href="/tools" class="navbar-link">Tools</a>
+        </div>
 </nav>
 
 <style>
     .navbar {
         background-color: #333;
         color: white;
-        padding: 1em;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
-    .container {
-        max-width: 960px;
-        margin: 0 auto;
-    }
-
-    .navbar-brand {
-        color: white;
+    .navbar-brand, .navbar-link {
         text-decoration: none;
         font-weight: bold;
+        color: inherit;
+        padding: 20px;
     }
+
 </style>
