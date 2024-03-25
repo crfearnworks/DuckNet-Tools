@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Wireshark",
+        "description": "Wireshark is a network protocol analyzer for Unix and Windows. It lets you capture and interactively browse the traffic running on a computer network.",
+        "url": "https://www.wireshark.org/"
+    },
+    {
+        "name": "Nmap",
+        "description": "Nmap is a free and open-source network scanner created by Gordon Lyon. Nmap is used to discover hosts and services on a computer network by sending packets and analyzing the responses.",
+        "url": "https://nmap.org/"
+    },
+    {
+        "name": "Metasploit",
+        "description": "Metasploit is a penetration testing framework that makes hacking simple. It is an open-source project that provides a public resource for researching security vulnerabilities and developing code that allows a network administrator to break into his own network to identify security risks.",
+        "url": "https://www.metasploit.com/"
+    },
+    {
+        "name": "Burp Suite",
+        "description": "Burp Suite is a leading range of cybersecurity tools, brought to you by PortSwigger. It is the world's most widely used web application security testing software. Burp Suite helps you secure your web applications by finding the vulnerabilities they contain.",
+        "url": "https://portswigger.net/burp"
+    },
+    {
+        "name": "Kali Linux",
+        "description": "Kali Linux is a Debian-based Linux distribution aimed at advanced Penetration Testing and Security Auditing. Kali contains several hundred tools which are geared towards various information security tasks, such as Penetration Testing, Security research, Computer Forensics and Reverse Engineering.",
+        "url": "https://www.kali.org/"
+    },
+    {
+        "name": "John the Ripper",
+        "description": "John the Ripper is a fast password cracker, currently available for many flavors of Unix, Windows, DOS, BeOS, and OpenVMS. Its primary purpose is to detect weak Unix passwords. Besides several crypt(3) password hash types most commonly found on various Unix systems, supported out of the box are Windows LM hashes, plus lots of other hashes and ciphers in the community-enhanced version.",
+        "url": "https://www.openwall.com/john/"
+    },
+    {
+        "name": "Aircrack-ng",
+        "description": "Aircrack-ng is a complete suite of tools to assess WiFi network security. It focuses on different areas of WiFi security: Monitoring: Packet capture and export of data to text files for further processing by third-party tools. Attacking: Replay attacks, deauthentication, fake access points, and others via packet injection. Testing: Checking WiFi cards and driver capabilities (capture and injection). Cracking: WEP and WPA PSK (WPA 1 and 2).",
+        "url": "https://www.aircrack-ng.org/"
+    }
+]

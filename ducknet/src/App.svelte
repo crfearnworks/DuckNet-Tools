@@ -1,20 +1,15 @@
 <script>
+	import { onMount } from "svelte";	
 	import Navbar from "./Navbar.svelte";
 	import ToolLink from "./ToolLink.svelte";
 	import Footer from "./Footer.svelte";
 
-	let tools = [
-		{
-			name: "Svelte",
-			description: "A new way to build web applications.",
-			url: "https://svelte.dev"
-		},
-		{
-			name: "Sapper",
-			description: "The next small thing in web development.",
-			url: "https://sapper.svelte.dev"
-		}
-	];
+	let tools = [];
+
+	onMount(async () => {
+		const response = await fetch("/tools.json");
+		tools = await response.json();
+	});
 
 </script>
 
@@ -22,7 +17,7 @@
 
 <div class="container">
 	{#each tools as tool}
-		<ToolLink name={tool.name} description={tool.description} url={tool.url} />
+		<ToolLink {tool} />
 	{/each}
 </div>
 

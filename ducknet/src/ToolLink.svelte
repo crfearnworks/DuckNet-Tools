@@ -1,13 +1,9 @@
 <script>
-    export let name = '';
-    export let description = '';
-    export let url = '';
+    export let tool;
 </script>
 
 <div class="tool-link">
-    <h2>{name}</h2>
-    <p>{description}</p>
-    <a href={url} target="_blank">Visit</a>
+    <h3>{tool.name}</h3> {tool.description} <a href={tool.url} target="_blank">Visit</a>
 </div>
 
 <style>
