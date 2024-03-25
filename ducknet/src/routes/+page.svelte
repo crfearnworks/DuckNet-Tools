@@ -1,8 +1,8 @@
 <script>
 	import { onMount } from "svelte";	
-	import Navbar from "./Navbar.svelte";
-	import ToolLink from "./ToolLink.svelte";
-	import Footer from "./Footer.svelte";
+	import Navbar from "../lib/Navbar.svelte";
+	import ToolLink from "../lib/ToolLink.svelte";
+	import Footer from "../lib/Footer.svelte";
 
 	let tools = [];
 
