@@ -40,7 +40,8 @@
 				"ms-python.python",
 				"donjayamanne.python-extension-pack",
 				"devantler.gitlab-extension-pack",
-				"ms-toolsai.jupyter"
+				"ms-toolsai.jupyter",
+				"svelte.svelte-vscode"
 			]
 		}
 	}
